@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to bottom,
+    lightblue 5%,
+    pink 40%,
+    white 100%
+  );
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+input {
+  text-align: center;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
+  margin: 20px 10px;
+  font-size: large;
+  background-color: rgb(194, 218, 226);
+  border: solid 3px black;
+  box-shadow: 5px 5px 5px black;
+}
+label {
+  font-size: x-large;
+  font-family: cursive;
+  text-shadow: 3px 3px 3px gray;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 2px rgb(0, 0, 0);
+}
+h1:hover {
+  color: limegreen;
+}
+.feedStoreDiv {
+  width: 80%;
+  /* padding: 10px; */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(0, 191, 255);
+  border-radius: 10px;
+  /* border: 2px solid black; */
+}
+.feedStoreData {
+  height: 90px;
+  line-height: 40px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(250, 0, 42);
+  border-radius: 18px;
+}
+.backBtn {
+  height: 70px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 30px;
+  color: tomato;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px black;
+  box-shadow: 3px 3px 3px black;
+}
+.backBtn:hover {
+  font-size: xx-large;
 }
